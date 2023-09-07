@@ -1,0 +1,39 @@
+header{
+    padding-top: 1.25rem ;
+    width: 80vw;
+  }
+  header .head{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .menuMobile{
+    display: none;
+  }
+  header .logo img {
+    width: 170px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: filter 300ms;
+  }
+  
+  header ul{
+    display: flex;
+    gap: 2rem;
+  }
+  header li{
+    list-style: none;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 500;
+  }
+  header .coberturas{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  header .faq{
+    cursor: pointer;
+  }
