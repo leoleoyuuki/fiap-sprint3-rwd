@@ -1,4 +1,5 @@
 @import "./css/Header.css"; /*  header */
+@import "./css/Footer.css"; /*  footer */
 
 *{
   margin: 0;
@@ -8,4 +9,34 @@
 #root {
   margin: 0 auto;
   text-align: center;
+}
+
+.secao1{
+  background: url(./assets/banner.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height:550px;
+}
+.secao1 .titulo{
+  width: 260px;
+}
+.secao1 .titulo h1{
+  color: #000;
+  font-size: 28px;
+  text-align: start;
+}
+.secao1 .subtitulo {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.secao1 .subtitulo img{
+  width: 35px;
+}
+.secao1 .underscore{
+  text-decoration: underline;
+  color: #009EE2;
 }
