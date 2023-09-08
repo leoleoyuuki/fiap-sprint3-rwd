@@ -1,3 +1,4 @@
+
 header{
     width: 80vw;
     margin: 0 auto;
@@ -8,6 +9,8 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    position: absolute;
+    top: 0;
   }
   header .menuMobile{
     display: none;
