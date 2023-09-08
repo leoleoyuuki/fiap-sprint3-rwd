@@ -8,6 +8,10 @@ export default function Footer(props){
                     <div className='logo'><img src={props.logoPortoProps} alt="Logo Porto" /></div>
                     <hr />
                     <p>&copy; 2023 - Todos os direitos reservados</p>
+                    <nav>
+                            <Link to={"/"}>Política de Privacidade</Link>
+                            <Link to={"/"}>Ouvidoria</Link>
+                    </nav>
                 </div>
             </footer>
         </>
