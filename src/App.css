@@ -1,42 +1,64 @@
+@import "./css/Header.css"; /*  header */
+@import "./css/Footer.css"; /*  footer */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.secao1{
+  background: url(./assets/banner.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height:700px;
+  display: flex;
+  align-items: center;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.secao1 .container-secao1{
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  justify-content: space-between;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.secao1 .titulo{
+  width: 500px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secao1 .titulo h1{
+  color: #000;
+  font-size: 50px;
+  text-align: start;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.secao1 .subtitulo {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-
-.card {
-  padding: 2em;
+.secao1 .subtitulo img{
+  width: 40px;
 }
-
-.read-the-docs {
-  color: #888;
+.secao1 .underscore{
+  text-decoration: underline;
+  color: #009EE2;
+}
+.secao1 .botao{
+  padding: 10px 10px;
+  background-color: #005AE2;
+  border-radius: 10px;
+  width: 190px;
+  cursor: pointer;
+}
+.secao1 .botao a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
 }
