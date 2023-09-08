@@ -3,8 +3,8 @@ header{
     width: 80vw;
     margin: 0 auto;
   }
-  header .head{
-    width: 700px;
+header .head{
+    width: 750px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,32 +12,43 @@ header{
     position: absolute;
     top: 0;
   }
-  header .menuMobile{
+header .menuMobile{
     display: none;
   }
-  header .logo img {
+header .logo img {
     width: 170px;
     padding: 0.5rem;
     cursor: pointer;
     transition: filter 300ms;
   }
-  
-  header ul{
+
+
+header ul{
+    width: 300px;
     display: flex;
+    justify-content: space-between;
     gap: 2rem;
   }
-  header li{
+header li{
     list-style: none;
     font-size: 1.1rem;
     color: #000;
     font-weight: 500;
   }
-  header .coberturas{
+header .coberturas{
     border: 1px solid #000;
     border-radius: 10px;
     padding: 0 10px;
     cursor: pointer;
   }
-  header .faq{
+header .faq{
     cursor: pointer;
+  }
+header .alunos a{
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
   }

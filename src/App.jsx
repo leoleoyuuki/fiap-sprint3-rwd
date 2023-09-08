@@ -13,7 +13,7 @@ export default function App(){
     <>
     
     <Header logoPortoProps={logoPorto} menuProps={Menu}/>
-      <Secao1 />
+      <Secao1/>
     <Footer logoPortoProps={logoPorto}/>
     </>
   )

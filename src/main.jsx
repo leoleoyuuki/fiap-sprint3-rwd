@@ -5,10 +5,11 @@ import './index.css'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
 
 
+
 let router = createBrowserRouter([
   {
     path: '/',
-    element: <App />
+    element: <App />,
   }
 ])
 

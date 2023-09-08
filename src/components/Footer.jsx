@@ -9,8 +9,8 @@ export default function Footer(props){
                     <hr />
                     <p>&copy; 2023 - Todos os direitos reservados</p>
                     <nav>
-                            <Link to={"/"}>Política de Privacidade</Link>
-                            <Link to={"/"}>Ouvidoria</Link>
+                            <Link to="https://www.portoseguro.com.br/privacidade">Política de Privacidade</Link>
+                            <Link to="/https://www.portoseguro.com.br/fale-conosco/ouvidoria">Ouvidoria</Link>
                     </nav>
                 </div>
             </footer>
