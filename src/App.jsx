@@ -6,10 +6,8 @@ import Menu from './assets/menu.svg'
 import './App.css'
 import { Outlet } from 'react-router-dom'
 
-export default function App(){
-
-
-  return(
+export default function App() {
+  return (
     <>
     
     <Header logoPortoProps={logoPorto} menuProps={Menu}/>

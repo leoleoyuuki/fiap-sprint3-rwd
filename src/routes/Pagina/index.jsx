@@ -1,7 +1,7 @@
-import Cadeado from "../../assets/cadeado.svg"
-import "../../App.css"
+import Cadeado from "../assets/cadeado.svg"
+import "../App.css"
 import {Link} from "react-router-dom";
-export default function Pagina() {
+export default function Secao1() {
     return (
         <>
 
