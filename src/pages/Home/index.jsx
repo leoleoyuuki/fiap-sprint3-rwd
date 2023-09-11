@@ -72,7 +72,9 @@ export default function Home() {
       
       {/* inciando o FAQ */}
       <section className='secao3'>
-        <h1>FAQ - Dúvidas Frequentes</h1>
+        <div className="h1">
+          <h1>FAQ - Dúvidas Frequentes</h1>
+        </div>
         <div className='duvidas'>
           <details>
             <summary>A cobertura de roubo garante furto simples?</summary>

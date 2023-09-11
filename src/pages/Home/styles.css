@@ -85,6 +85,31 @@
   width: 250px;
   box-shadow: 1px 1px 3px #005ae2;
   border-radius: 10px;
+}
+.secao3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  height: 55vh;
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 20px;
+  background-color: #009ee2;
   
+}
+.secao3 .h1{
+  width: 80%;
+  margin : 0 auto;
+}
+.secao3 details{
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.secao3 details p{
+  font-size: 18px;
 
 }
