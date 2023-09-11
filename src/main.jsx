@@ -1,8 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
+import Alunos from './routes/Alunos/index.jsx'
+import App from './App'
+import Pagina from './routes/Pagina'
 
 
 
@@ -10,6 +12,15 @@ let router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    children: [
+      {path: '/',
+       element: <Pagina/>
+      },
+      
+      {path: '/alunos', 
+      element: <Alunos/>
+    }
+    ]
   }
 ])
 
