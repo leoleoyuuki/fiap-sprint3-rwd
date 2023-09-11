@@ -128,4 +128,34 @@
   font-size: 18px;
 }
 
+@media (max-width:1199px) {
+  
+  .secao1 .titulo {
+    width: 400px;
+  }
+  
+  .secao1 .titulo h1{
+    font-size: 45px;
+  }
+  
+  .secao1 .subtitulo {
+    font-size: 1.2rem;
+  }
 
+  .secao1 .subtitulo img {
+    width: 35px;
+  }
+
+  .secao1 .botao {
+    width: 180px;
+  }
+
+  .secao1 .container-secao1 {
+    height: 300px;
+  }
+
+  .secao2 .imagens img{
+    width: 230px;
+  }
+
+}
