@@ -43,9 +43,73 @@
   border-radius: 10px;
   width: 190px;
   cursor: pointer;
+  text-align: center;
 }
 .secao1 .botao a {
   color: #fff;
   text-decoration: none;
   font-weight: 700;
+}
+.secao2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 65vh;
+  width: 90%;
+  margin: 0 auto;
+
+
+}
+.secao2 .texts{
+  width: 400px;
+  
+  color: #000;
+}
+.secao2 .texts h1{
+  font-size: 1.6rem;
+  line-height: 34px;
+}
+.secao2 .texts p{
+  font-size: 1.2rem;
+}
+.secao2 .imagens{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 0.8rem;
+  overflow-x:scroll ;
+
+
+}
+.secao2 .imagens img{
+  width: 250px;
+  box-shadow: 1px 1px 3px #005ae2;
+  border-radius: 10px;
+}
+.secao3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  height: 55vh;
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 20px;
+  background-color: #009ee2;
+  
+}
+.secao3 .h1{
+  width: 80%;
+  margin : 0 auto;
+}
+.secao3 details{
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.secao3 details p{
+  font-size: 18px;
+
 }
