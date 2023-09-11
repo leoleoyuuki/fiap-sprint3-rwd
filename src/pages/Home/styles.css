@@ -43,6 +43,7 @@
   border-radius: 10px;
   width: 190px;
   cursor: pointer;
+  text-align: center;
 }
 .secao1 .botao a {
   color: #fff;

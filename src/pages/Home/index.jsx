@@ -1,4 +1,9 @@
 import Cadeado from '../../assets/cadeado.svg'
+import DanosBike from '../../assets/img/danosbike.svg'
+import Roubo from '../../assets/img/roubo.svg'
+import AcidentesPessoais from '../../assets/img/acidentespessoais.svg'
+import DanosTerceiros from '../../assets/img/danosaterceiros.svg'
+import ExtensaoCoberturas from '../../assets/img/extensaointernacional.svg'
 import './styles.css'
 import { Link } from 'react-router-dom'
 export default function Home() {
@@ -22,6 +27,26 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section>
+        <div>
+          <img src={DanosBike} alt="Danos á Bike" />
+        </div>
+        <div>
+          <img src={Roubo} alt="Roubo" />
+        </div>
+        <div>
+          <img src={AcidentesPessoais} alt="Acidentes pessoais" />
+        </div>
+        <div>
+          <img src={DanosTerceiros} alt="Danos a terceiros" />
+        </div>
+        <div>
+          <img src={ExtensaoCoberturas} alt="Extensão da cobertura em solo internacional" />
+        </div>
+        
+      </section>
+      
     </>
   )
 }
