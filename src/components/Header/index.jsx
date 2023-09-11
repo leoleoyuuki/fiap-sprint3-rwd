@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import './styles.css'
 import Brand from '../Brand'
+import './styles.css'
 
 export default function Header(props) {
   return (
