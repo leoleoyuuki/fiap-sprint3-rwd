@@ -1,54 +1,58 @@
-
-header{
-    width: 80vw;
-    margin: 0 auto;
-  }
-header .head{
-    width: 750px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    position: absolute;
-    top: 0;
-  }
-header .menuMobile{
-    display: none;
-  }
+header {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+header .head {
+  width: 100%;
+  padding: 0px 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  top: 0;
+}
+header .menuMobile {
+  display: none;
+}
 header .logo img {
-    width: 170px;
-    padding: 0.5rem;
-    cursor: pointer;
-    transition: filter 300ms;
-  }
+  width: 170px;
 
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: filter 300ms;
+}
 
-header ul{
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-  }
-header li{
-    list-style: none;
-    font-size: 1.1rem;
-    color: #000;
-    font-weight: 500;
-  }
-header .coberturas{
-    border: 1px solid #000;
-    border-radius: 10px;
-    padding: 0 10px;
-    cursor: pointer;
-  }
-header .faq{
-    cursor: pointer;
-  }
-header .alunos a{
-    cursor: pointer;
-    list-style: none;
-    font-size: 1.1rem;
-    color: #000;
-    font-weight: 500;
-    text-decoration: none;
-  }
+header .logo.invisible {
+  visibility: hidden;
+}
+
+header ul {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+header li {
+  list-style: none;
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: 500;
+}
+header .coberturas {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+header .faq {
+  cursor: pointer;
+}
+header .alunos a {
+  cursor: pointer;
+  list-style: none;
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}

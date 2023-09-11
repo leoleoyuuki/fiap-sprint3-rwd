@@ -6,15 +6,12 @@ import logoPorto from './assets/logo.svg'
 import Menu from './assets/menu.svg'
 import './App.css'
 
-export default function App(){
-
-
-  return(
+export default function App() {
+  return (
     <>
-    
-    <Header logoPortoProps={logoPorto} menuProps={Menu}/>
-      <Secao1/>
-    <Footer logoPortoProps={logoPorto}/>
+      <Header logoPortoProps={logoPorto} menuProps={Menu} />
+      <Secao1 />
+      <Footer logoPortoProps={logoPorto} />
     </>
   )
 }
