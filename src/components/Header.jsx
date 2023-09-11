@@ -7,7 +7,7 @@ export default function Header(props){
         <>
             <header>
                 <div className="head">
-                    <div className='logo'><img src={props.logoPortoProps} alt="Logo Porto" /></div>
+                    <div className='logo' onClick={() => window.location.href = "/"}><img src={props.logoPortoProps} alt="Logo Porto" /></div>
                     <nav>
                         <ul>
                             <li className='faq'>FAQ</li>

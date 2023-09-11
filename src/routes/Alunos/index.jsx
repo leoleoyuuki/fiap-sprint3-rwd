@@ -1,8 +1,8 @@
-
+import "../../App.css"
 
 export default function Alunos(){
     return(
-        <div>
+        <div className="container-alunos">
            <h1>PortoBike Responsive Web Development</h1>
            <h2>Participantes: </h2>
            <p> - Leonardo Yuuki Nakazone | 550373 </p>
