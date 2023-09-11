@@ -13,8 +13,13 @@ let router = createBrowserRouter([
     path: '/',
     element: <App />,
     children: [
-      {path: '/', element: <Pagina/>},
-      {path: '/alunos', element: <Alunos/>}
+      {path: '/',
+       element: <Pagina/>
+      },
+      
+      {path: '/alunos', 
+      element: <Alunos/>
+    }
     ]
   }
 ])
