@@ -1,7 +1,7 @@
-import Cadeado from '../assets/cadeado.svg'
-import '../App.css'
+import Cadeado from '../../assets/cadeado.svg'
+import './styles.css'
 import { Link } from 'react-router-dom'
-export default function Secao1() {
+export default function Home() {
   return (
     <>
       <section className="secao1">

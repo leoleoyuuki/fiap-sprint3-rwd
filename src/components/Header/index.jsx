@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
-import '../App.css'
+import './styles.css'
+import Brand from '../Brand'
+
 export default function Header(props) {
   return (
     <>
       <header>
         <div className="head">
           <div className="logo">
-            <img src={props.logoPortoProps} alt="Logo Porto" />
+            <Brand />
           </div>
           <nav>
             <ul>
@@ -24,7 +26,7 @@ export default function Header(props) {
             <img src={props.menuProps} alt="menu mobile" />
           </div>
           <div className="logo invisible">
-            <img src={props.logoPortoProps} alt="Logo Porto" />
+            <img alt="" />
           </div>
         </div>
       </header>
