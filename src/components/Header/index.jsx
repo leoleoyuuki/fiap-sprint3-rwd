@@ -30,11 +30,8 @@ export default function Header(props) {
             <Brand />
           </div>
           <nav>
-            <ul>
-              <li className="faq">
-                <Link to={'/'}>FAQ</Link>
-                
-                </li>
+            <ul className='navUl'>
+              <li className="faq">FAQ</li>
               <li className="alunos">
                 <Link to={'/alunos'}>Alunos</Link>
               </li>
@@ -46,7 +43,7 @@ export default function Header(props) {
             </ul>
           </nav>
 
-          <div className="menuMobile">
+          <div className="menuMobile" >
             <img src={props.menuProps} alt="menu mobile" />
           </div>
           <div className="logo invisible">
