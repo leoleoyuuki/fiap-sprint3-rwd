@@ -61,9 +61,6 @@ header .alunos a {
   
   header .logo img {
     width: 160px;
-    padding: 0.5rem;
-    cursor: pointer;
-    transition: filter 300ms;
   }
 
   header .coberturas li{
@@ -80,5 +77,34 @@ header .alunos a {
   header ul {
     width: 282px;
   }
+}
 
+@media (max-width:991px){
+
+  header .menuMobile {
+    display: block;
+  }
+
+  header .logo img {
+    width: 150px;
+  }
+
+  header .coberturas li{
+    font-size: 0.9rem;
+  }
+  header .faq {
+    font-size: 0.9rem;
+  }
+  header .alunos a {
+    font-size: 0.9rem;
+}
+
+  header ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  header .logo.invisible {
+    display: none;
+  }
 }

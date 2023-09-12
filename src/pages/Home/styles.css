@@ -159,3 +159,36 @@
   }
 
 }
+
+
+@media (max-width:991px) {
+  
+  .secao1 .titulo {
+    width: 350px;
+  }
+  
+  .secao1 .titulo h1{
+    font-size: 37px;
+  }
+  
+  .secao1 .subtitulo {
+    font-size: 1rem;
+  }
+
+  .secao1 .subtitulo img {
+    width: 30px;
+  }
+
+  .secao1 .botao {
+    width: 200px;
+  }
+
+  .secao1 .container-secao1 {
+    height: 270px;
+  }
+
+  .secao2 .imagens img{
+    width: 200px;
+  }
+
+}
