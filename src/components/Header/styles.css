@@ -33,11 +33,12 @@ header ul {
   justify-content: space-between;
   gap: 2rem;
 }
-header li {
+header li, header li a {
   list-style: none;
   font-size: 1.1rem;
   color: #000;
   font-weight: 500;
+  text-decoration: none;
 }
 header .coberturas {
   border: 1px solid #000;
@@ -107,4 +108,87 @@ header .alunos a {
   header .logo.invisible {
     display: none;
   }
+}
+
+@media (max-width:783px){
+
+  header .menuMobile {
+    display: block;
+  }
+
+  header .logo img {
+    width: 150px;
+  }
+
+  header .coberturas li{
+    font-size: 0.9rem;
+  }
+  header .faq {
+    font-size: 0.9rem;
+  }
+  header .alunos a {
+    font-size: 0.9rem;
+}
+
+  header ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  header .logo.invisible {
+    display: none;
+  }
+
+  header .head {
+    width: 100%;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    top: 0;
+  }
+
+}
+
+
+@media (max-width:575px){
+
+  header .menuMobile {
+    display: block;
+  }
+
+  header .logo img {
+    width: 150px;
+  }
+
+  header .coberturas li{
+    font-size: 0.9rem;
+  }
+  header .faq {
+    font-size: 0.9rem;
+  }
+  header .alunos a {
+    font-size: 0.9rem;
+}
+
+  header ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  header .logo.invisible {
+    display: none;
+  }
+
+  header .head {
+    width: 100%;
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    top: 0;
+  }
+
 }

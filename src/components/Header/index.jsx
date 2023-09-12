@@ -3,6 +3,36 @@ import Brand from '../Brand'
 import './styles.css'
 
 export default function Header(props) {
+
+  const url = window.location.pathname;
+
+   const posicaoFAQ = document.querySelector('.secao3');
+   const posicaoCobertura = document.querySelector('.secao2');
+  const clickFAQ = ()=> {
+    
+    if(url === '/alunos'){
+      window.location.href = '/';
+      
+    }else if(url === '/'){
+      window.scrollTo({
+        top: posicaoFAQ.offsetTop,
+        behavior: 'smooth'
+      });
+
+    }
+  }
+  const clickCobertura = ()=> {
+    if(url === '/alunos'){
+      window.location.href = '/';
+     
+    }else if(url === '/'){
+      window.scrollTo({
+        top: posicaoCobertura.offsetTop,
+        behavior: 'smooth'
+      });
+
+    }
+  }
   return (
     <>
       <header>
@@ -12,17 +42,17 @@ export default function Header(props) {
           </div>
           <nav>
             <ul className='navUl'>
-              <li className="faq">FAQ</li>
+              <li className="faq" onClick={clickFAQ}>FAQ</li>
               <li className="alunos">
                 <Link to={'/alunos'}>Alunos</Link>
               </li>
               <div className="coberturas">
-                <li>Coberturas</li>
+                <li onClick={clickCobertura}>Coberturas</li>
               </div>
             </ul>
           </nav>
 
-          <div className="menuMobile" onClick={document.querySelector(".navUl").style} >
+          <div className="menuMobile" >
             <img src={props.menuProps} alt="menu mobile" />
           </div>
           <div className="logo invisible">

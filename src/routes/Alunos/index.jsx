@@ -1,4 +1,4 @@
-import "../../App.css"
+import "./styles.css";
 
 export default function Alunos(){
     return(
