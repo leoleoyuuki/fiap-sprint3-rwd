@@ -192,3 +192,46 @@
   }
 
 }
+
+@media (max-width:783px) {
+  
+  .secao1 .titulo {
+    width: 300px;
+  }
+  
+  .secao1 .titulo h1{
+    font-size: 29px;
+  }
+  
+  .secao1 .subtitulo {
+    font-size: 0.8rem;
+  }
+
+  .secao1 .subtitulo img {
+    width: 25px;
+  }
+
+  .secao1 .botao {
+    width: 200px;
+  }
+
+  .secao1 .container-secao1 {
+    height: 230px;
+  }
+
+  .secao2 .imagens img{
+    width: 150px;
+  }
+  .secao2 .imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .secao2{
+    height: auto;
+    width: 80%;
+  }
+
+}
+

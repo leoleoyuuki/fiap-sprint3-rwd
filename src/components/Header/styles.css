@@ -108,3 +108,44 @@ header .alunos a {
     display: none;
   }
 }
+
+@media (max-width:783px){
+
+  header .menuMobile {
+    display: block;
+  }
+
+  header .logo img {
+    width: 150px;
+  }
+
+  header .coberturas li{
+    font-size: 0.9rem;
+  }
+  header .faq {
+    font-size: 0.9rem;
+  }
+  header .alunos a {
+    font-size: 0.9rem;
+}
+
+  header ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  header .logo.invisible {
+    display: none;
+  }
+
+  header .head {
+    width: 100%;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    top: 0;
+  }
+
+}

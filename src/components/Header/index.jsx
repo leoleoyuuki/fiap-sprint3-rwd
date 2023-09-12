@@ -22,7 +22,7 @@ export default function Header(props) {
             </ul>
           </nav>
 
-          <div className="menuMobile" onClick={document.querySelector(".navUl").style} >
+          <div className="menuMobile" >
             <img src={props.menuProps} alt="menu mobile" />
           </div>
           <div className="logo invisible">
