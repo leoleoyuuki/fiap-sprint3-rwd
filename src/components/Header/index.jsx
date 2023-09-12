@@ -9,9 +9,10 @@ export default function Header(props) {
    const posicaoFAQ = document.querySelector('.secao3');
    const posicaoCobertura = document.querySelector('.secao2');
   const clickFAQ = ()=> {
+    
     if(url === '/alunos'){
       window.location.href = '/';
-     
+      
     }else if(url === '/'){
       window.scrollTo({
         top: posicaoFAQ.offsetTop,

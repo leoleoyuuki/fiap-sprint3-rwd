@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Home from '../pages/Home'
 import RouteWrapper from './App'
+import Alunos from './Alunos'
 
 const RouterConfig = createBrowserRouter([
   {
@@ -13,7 +14,9 @@ const RouterConfig = createBrowserRouter([
   },
   {
     path: '/alunos',
-    element: <RouteWrapper></RouteWrapper>,
+    element: <RouteWrapper>
+      <Alunos />
+    </RouteWrapper>,
   },
 ])
 
