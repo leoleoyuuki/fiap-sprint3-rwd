@@ -1,0 +1,110 @@
+header {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+header .head {
+  width: 100%;
+  padding: 0px 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  top: 0;
+}
+header .menuMobile {
+  display: none;
+}
+header .logo img {
+  width: 170px;
+
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: filter 300ms;
+}
+
+header .logo.invisible {
+  visibility: hidden;
+}
+
+header ul {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+header li {
+  list-style: none;
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: 500;
+}
+header .coberturas {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+header .faq {
+  cursor: pointer;
+}
+header .alunos a {
+  cursor: pointer;
+  list-style: none;
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (max-width:1199px) {
+  
+  header .logo img {
+    width: 160px;
+  }
+
+  header .coberturas li{
+
+    font-size: 1rem;
+  }
+  header .faq {
+    font-size: 1rem;
+  }
+  header .alunos a {
+    font-size: 1rem;
+}
+
+  header ul {
+    width: 282px;
+  }
+}
+
+@media (max-width:991px){
+
+  header .menuMobile {
+    display: block;
+  }
+
+  header .logo img {
+    width: 150px;
+  }
+
+  header .coberturas li{
+    font-size: 0.9rem;
+  }
+  header .faq {
+    font-size: 0.9rem;
+  }
+  header .alunos a {
+    font-size: 0.9rem;
+}
+
+  header ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  header .logo.invisible {
+    display: none;
+  }
+}
