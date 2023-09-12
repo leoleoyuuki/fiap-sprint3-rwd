@@ -57,41 +57,43 @@
   height: 65vh;
   width: 90%;
   margin: 0 auto;
-
-
 }
+
 .secao2 .texts{
   width: 400px;
   
   color: #000;
 }
+
 .secao2 .texts h1{
   font-size: 1.6rem;
   line-height: 34px;
 }
+
 .secao2 .texts p{
   font-size: 1.2rem;
 }
+
 .secao2 .imagens{
   width: 90%;
   margin: 0 auto;
   display: flex;
   gap: 0.8rem;
   overflow-x:scroll ;
-
-
 }
+
 .secao2 .imagens img{
   width: 250px;
   box-shadow: 1px 1px 3px #005ae2;
   border-radius: 10px;
 }
+
 .secao3{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   margin: auto;
-  height: 55vh;
+  height: 70vh;
   width: 100%;
   margin: 0 auto;
   color: #fff;
@@ -99,17 +101,94 @@
   background-color: #009ee2;
   
 }
+
 .secao3 .h1{
   width: 80%;
   margin : 0 auto;
 }
+
 .secao3 details{
   width: 80%;
   margin: 0 auto;
+  display: flex;
+}
 
+.secao3 .duvidas{
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.secao3 details summary{
+  cursor: pointer;
 }
 
 .secao3 details p{
   font-size: 18px;
+}
+
+@media (max-width:1199px) {
+  
+  .secao1 .titulo {
+    width: 400px;
+  }
+  
+  .secao1 .titulo h1{
+    font-size: 45px;
+  }
+  
+  .secao1 .subtitulo {
+    font-size: 1.2rem;
+  }
+
+  .secao1 .subtitulo img {
+    width: 35px;
+  }
+
+  .secao1 .botao {
+    width: 180px;
+  }
+
+  .secao1 .container-secao1 {
+    height: 300px;
+  }
+
+  .secao2 .imagens img{
+    width: 232px;
+  }
+
+}
+
+
+@media (max-width:991px) {
+  
+  .secao1 .titulo {
+    width: 350px;
+  }
+  
+  .secao1 .titulo h1{
+    font-size: 37px;
+  }
+  
+  .secao1 .subtitulo {
+    font-size: 1rem;
+  }
+
+  .secao1 .subtitulo img {
+    width: 30px;
+  }
+
+  .secao1 .botao {
+    width: 200px;
+  }
+
+  .secao1 .container-secao1 {
+    height: 270px;
+  }
+
+  .secao2 .imagens img{
+    width: 200px;
+  }
 
 }

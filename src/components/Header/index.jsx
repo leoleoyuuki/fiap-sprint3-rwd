@@ -11,7 +11,7 @@ export default function Header(props) {
             <Brand />
           </div>
           <nav>
-            <ul>
+            <ul className='navUl'>
               <li className="faq">FAQ</li>
               <li className="alunos">
                 <Link to={'/alunos'}>Alunos</Link>
@@ -22,7 +22,7 @@ export default function Header(props) {
             </ul>
           </nav>
 
-          <div className="menuMobile">
+          <div className="menuMobile" onClick={document.querySelector(".navUl").style} >
             <img src={props.menuProps} alt="menu mobile" />
           </div>
           <div className="logo invisible">

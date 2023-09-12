@@ -56,3 +56,55 @@ header .alunos a {
   font-weight: 500;
   text-decoration: none;
 }
+
+@media (max-width:1199px) {
+  
+  header .logo img {
+    width: 160px;
+  }
+
+  header .coberturas li{
+
+    font-size: 1rem;
+  }
+  header .faq {
+    font-size: 1rem;
+  }
+  header .alunos a {
+    font-size: 1rem;
+}
+
+  header ul {
+    width: 282px;
+  }
+}
+
+@media (max-width:991px){
+
+  header .menuMobile {
+    display: block;
+  }
+
+  header .logo img {
+    width: 150px;
+  }
+
+  header .coberturas li{
+    font-size: 0.9rem;
+  }
+  header .faq {
+    font-size: 0.9rem;
+  }
+  header .alunos a {
+    font-size: 0.9rem;
+}
+
+  header ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  header .logo.invisible {
+    display: none;
+  }
+}
