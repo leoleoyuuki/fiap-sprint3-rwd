@@ -10,10 +10,6 @@ export default function Header(props) {
   const clickFAQ = ()=> {
     if(url === '/alunos'){
       window.location.href = '/';
-      window.scrollTo({
-        top: posicaoFAQ.offsetTop,
-        behavior: 'smooth'
-      });
     }else if(url === '/'){
       window.scrollTo({
         top: posicaoFAQ.offsetTop,
