@@ -31,7 +31,7 @@ export default function Header(props) {
           </div>
           <nav>
             <ul className='navUl'>
-              <li className="faq">FAQ</li>
+              <li className="faq" onClick={clickFAQ}>FAQ</li>
               <li className="alunos">
                 <Link to={'/alunos'}>Alunos</Link>
               </li>
