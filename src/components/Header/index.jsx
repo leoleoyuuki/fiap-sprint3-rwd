@@ -7,12 +7,26 @@ export default function Header(props) {
   const url = window.location.pathname;
 
    const posicaoFAQ = document.querySelector('.secao3');
+   const posicaoCobertura = document.querySelector('.secao2');
   const clickFAQ = ()=> {
     if(url === '/alunos'){
       window.location.href = '/';
+     
     }else if(url === '/'){
       window.scrollTo({
         top: posicaoFAQ.offsetTop,
+        behavior: 'smooth'
+      });
+
+    }
+  }
+  const clickCobertura = ()=> {
+    if(url === '/alunos'){
+      window.location.href = '/';
+     
+    }else if(url === '/'){
+      window.scrollTo({
+        top: posicaoCobertura.offsetTop,
         behavior: 'smooth'
       });
 
@@ -32,9 +46,7 @@ export default function Header(props) {
                 <Link to={'/alunos'}>Alunos</Link>
               </li>
               <div className="coberturas">
-                <li>
-                  <Link to={'/'}>Coberturas</Link>
-                </li>
+                <li onClick={clickCobertura}>Coberturas</li>
               </div>
             </ul>
           </nav>
