@@ -3,6 +3,25 @@ import Brand from '../Brand'
 import './styles.css'
 
 export default function Header(props) {
+
+  const url = window.location.pathname;
+
+   const posicaoFAQ = document.querySelector('.secao3');
+  const clickFAQ = ()=> {
+    if(url === '/alunos'){
+      window.location.href = '/';
+      window.scrollTo({
+        top: posicaoFAQ.offsetTop,
+        behavior: 'smooth'
+      });
+    }else if(url === '/'){
+      window.scrollTo({
+        top: posicaoFAQ.offsetTop,
+        behavior: 'smooth'
+      });
+
+    }
+  }
   return (
     <>
       <header>
@@ -17,7 +36,9 @@ export default function Header(props) {
                 <Link to={'/alunos'}>Alunos</Link>
               </li>
               <div className="coberturas">
-                <li>Coberturas</li>
+                <li>
+                  <Link to={'/'}>Coberturas</Link>
+                </li>
               </div>
             </ul>
           </nav>
